@@ -9,6 +9,10 @@
 <remote name="gh"
         fetch="https://github.com/" />
 
+<remote name="corvus"
+        fetch="https://github.com/Corvus-ROM/"
+        revision="refs/heads/10" />
+
 <remote name="nad"
         fetch="https://github.com/NusantaraProject-ROM/"
         revision="refs/heads/10" />
@@ -115,6 +119,9 @@
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nad" revision="10-msm8996" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="nad" revision="10-msm8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="nad" revision="10-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="corvus" revision="10-8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="corvus" revision="10-8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="corvus" revision="10-8998" />
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" remote="nad" revision="10-msm8916" />
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" remote="nad" revision="10-msm8916" />
   <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" remote="nad" revision="10-msm8916" />
